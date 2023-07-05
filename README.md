@@ -1,4 +1,4 @@
-Yarn checker
+## Yarn checker
 
 Web scraping app for yarn & wool prices comparison
 
