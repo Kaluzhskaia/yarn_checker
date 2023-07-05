@@ -1,20 +1,20 @@
-## Yarn checker :yarn:
+## Yarn Сhecker :yarn:
 
 Web scraping app for yarn & wool prices comparison with **Django** and **DRF** <br/>
 It uses celery beat to scape with current prices twice a day and update the database accordingly.
 
 
 **Requirements:**
+```
+beautifulsoup4==4.12.2
+celery==5.3.1 
+Django==4.2.3 
+djangorestframework==3.14.0 
+redis==4.6.0 
+requests==2.31.0 
+```
 
-beautifulsoup4==4.12.2 <br/>
-celery==5.3.1 <br/>
-Django==4.2.3 <br/>
-djangorestframework==3.14.0 <br/>
-redis==4.6.0 <br/>
-requests==2.31.0 <br/>
- 
-
-**_Starting the app:_**
+**Starting the app:**
 
 - Navigate to the project folder and execute 
 ``` python manage.py runserver ```
