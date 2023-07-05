@@ -1,6 +1,6 @@
 ## Yarn checker :yarn:
 
-Web scraping app for yarn & wool prices comparison with **Django** and **DRF**
+Web scraping app for yarn & wool prices comparison with **Django** and **DRF** <br/>
 It uses celery beat to scape with current prices twice a day and update the database accordingly.
 
 
