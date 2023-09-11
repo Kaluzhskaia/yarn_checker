@@ -1,9 +1,9 @@
 from rest_framework import serializers
-
 from scraping.models import YarnProduct
 
 
 class YarnProductSerializer(serializers.ModelSerializer):
+    """Serializer for YarnProduct model."""
     resources = serializers.StringRelatedField(many=True)
 
     class Meta:
