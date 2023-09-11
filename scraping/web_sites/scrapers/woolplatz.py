@@ -92,5 +92,3 @@ def extract_item_details(soup: BeautifulSoup, item_link: str) -> Dict:
         'GTIN': gtin
     }
 
-
-scrape_woolplatz()
